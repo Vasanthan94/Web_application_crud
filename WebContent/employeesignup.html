@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee SignUpForm</title>
+<link rel="stylesheet" type="text/css" href="empsign.css">
+</head>
+<body>
+
+<form action="empsign.jsp">
+
+                <div class="container">
+            	<center>    
+                <div class="header">
+                <b>BUILD</b> YOUR PROFILE<br>
+                <span>This information will let us know more about you</span>               
+            	</div>
+            	</center><br>
+        		
+        		<caption>
+        		<span style="color:maroon;margin-left:5px;font-size:20px;font-family:cursive;font-weight: bolder;">
+        		<u>ABOUT</u></span>
+        		</caption>   
+                    <table cellspacing="8px" cellpadding="5px">
+                        <tr>
+                            <td class="lbl"><label>First Name&nbsp;<span style="color: red;">*</span></label></td>
+                            <td ><input type="text" name="fname" class="text" required></td>
+                            <td class="lbl"><label>Last Name&nbsp;<span style="color: red;">*</span></label></td>
+                            <td><input type="text" name="lname" class="text" required></td>
+                        </tr>
+                        <tr>
+                            <td class="lbl"><label>Email-Id&nbsp;<span style="color: red;">*</span></label></td>
+                            <td colspan="3"><input type="email" id="email" name="email" class="text" style="width: 800px;" required></td>
+                        </tr>
+                       
+                        <tr>
+                            <td class="lbl"><label>D.O.B&nbsp;<span style="color: red;">*</span></label></td>
+                            <td ><input type="date" name="dob" required class="text"></td>
+                            <td class="lbl"><label>Gender&nbsp;<span style="color: red;">*</span></label></td>
+                            <td>
+                            <input type="radio" name="gender" required >
+                            <span style="color:white;font-size:18px;font-family:cursive">Male</span>&nbsp;&nbsp;
+                            <input type="radio" name="gender" required>
+                            <span style="color:white;font-size:18px;font-family:cursive;">Female</span>&nbsp;&nbsp;
+                            <input type="radio" name="gender" required>
+                            <span style="color:white;font-size:18px;font-family:cursive;">Others</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="lbl"><label>Phone&nbsp;<span style="color: red;">*</span></label></td>
+                            <td><input type="number" name="phno1" class="text" required placeholder="Personal number" ></td>
+                            <td class="lbl"><label>Phone&nbsp;<span style="color: red;">*</span></label></td>
+                            <td><input type="number" name="phno2" class="text"  placeholder="Parent's number" ></td>
+                        </tr>
+                     </table>
+                   <br>
+                      <caption>
+            <span style="color:maroon;margin-left:5px;font-size:20px;font-family:cursive;font-weight: bolder;">
+            <u>EXPERIENCE</u></span>
+            </caption>     
+			<table cellspacing="8px" cellpadding="5px">
+           		<tr>
+           			<td class="lbl"><label>Company Name&nbsp;<span style="color: red;">*</span></label></td>
+           			<td><input type="text" name="com_name" class="text" required>
+           			</td>
+           			<td class="lbl"><label>Year of Experience&nbsp;<span style="color: red;">*</span></label></td>
+           			<td><input type="text" name="experience" class="text" required></td>
+           		</tr>
+           		<tr>
+           			<td class="lbl"><label>Skills&nbsp;<span style="color: red;">*</span></label></td>
+           			<td colspan="3"><input type="text" name="skills" class="text" required style="width:800px;"></td>
+           		</tr>
+           		</table><br>
+           		
+           	<caption>
+            <span style="color:maroon;margin-left:5px;font-size:20px;font-family:cursive;font-weight: bolder;">
+            <u>ADDRESS</u></span>
+            </caption>
+            <table cellspacing="8px" cellpadding="5px">
+           		<tr>
+           			<td class="lbl"><label>Address&nbsp;<span style="color:red;">*</span></label></td>
+           			<td><textarea cols="60" rows="8" style="border-radius: 5px;" name="address" class="text" required></textarea></td>
+           			
+           		</tr>
+           		</table><br>
+           		<caption>
+            <span style="color:maroon;margin-left:5px;margin-left:5px;font-size:20px;font-family:cursive;font-weight: bolder;">
+            <u>RESUME</u></span>
+            </caption>     
+			<table cellspacing="8px" cellpadding="5px">
+           		<tr>
+           		<td class="lbl"><label>Resume&nbsp;<span style="color: red;">*</span></label></td>
+           		<td colspan="3"><input type="file" class="text" name="resume" style="width:800px;">
+           		</td>
+           		</tr>
+           	</table><br><br>
+           	
+           	<table>
+           	<tr>
+           		<td colspan="4" style="color:black;font-size:18px;font-family: cursive;">
+           		<input type="checkbox" required>
+           			I accept the Terms and Condition
+           		</td>
+           	</tr>
+           	</table><br>
+           	
+           	<table cellspacing="8px" cellpadding="5px" style="float:right;margin-right:100px;">
+           	<tr>
+           	<td><input type="submit" value="SUBMIT" class="submit" onclick="msg()"></td>
+           	<td><input type="reset" value="RESET" class="submit"></td>
+           	</tr>
+           	</table>
+           		</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.container1
+{
+    width:100%; 
+    height:500px;
+}
+.f1content
+{
+     width: 100%;
+     height: 60px;
+     color: white;
+    <!-- background-color: white;-->
+     margin: 0px auto;
+}
+.f1content span
+{
+    font-size: 30px;
+    margin: 0px auto;
+    color: white;
+}
+.f1content span:hover
+{
+    color: red;
+}
+.f1content ul
+{
+    float: right;
+}
+.f1content ul li
+{
+    display: inline;
+}
+.f1content ul li a
+{
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 20px;
+    color: aqua;
+}
+.f1content ul li a:hover
+{
+    color: white    ;
+}

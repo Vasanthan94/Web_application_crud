@@ -1,0 +1,143 @@
+@charset "ISO-8859-1";
+.top1
+{
+	width: 60%;
+    height: 60px;
+    text-align:center;
+    margin:0px auto;
+}
+.top1 span
+{
+	color:maroon;
+    font-size: 30px;
+    margin: 0px auto;
+}
+.top2
+{
+	width:100%;
+	height:40px;
+	color:white;
+	font-size:25px;
+	font-family:cursive;
+	background-color:navy;
+	border-radius: 5px;
+}
+.top2 span
+{
+	margin-left:10px;
+	color:white;
+	float:left;
+}
+.top2 span:hover
+{
+	color:red;
+}
+.top2 a
+{
+	color:white;
+	font-size:20px;
+	margin-left:10px;
+	text-decoration: none;
+	float:right;
+	margin-right:15px;
+	margin-top:5px;
+}
+.container1
+{
+	width:10%;
+	height:450px;
+	float:left;
+	padding-right:5px;
+	margin-top:5px;
+	border-radius:5px;
+	
+	text-align:center;
+}
+.container1 a
+{
+	text-decoration: none;
+	font-size:18px;
+	color:blue;
+	font-family: cursive;
+	margin-top:25px;
+}
+.container1 a:hover
+{
+	color:orange;
+	font-size:22px;
+}
+.container2
+{
+	width: 89%;
+    height: 450px;
+ 	margin-top:5px; 
+ 	float:right;  
+    background-color:silver;
+    border-radius: 5px;    
+}
+.container2 p
+{
+	color:black;
+	text-align: center;
+}
+.lbl1
+{
+	color: indigo;
+	font-size:large;
+	width:420px;
+	height:50px;
+	border-radius:5px;
+}
+.lbl2
+{
+	width:480px;
+	height:40px;
+
+}
+.lbl2 span
+{
+	font-size:20px;
+	color:blue;
+	maigin-left:30px;
+}
+.signin
+{
+	
+	width:120px;
+	height:40px;
+	color:blue;
+	font-size:20px;
+	font-family:cursive;
+	font-weight:bolder;
+	border-radius:5px;
+	margin-top: 20px;
+}
+.forgot
+{
+	text-align:center;
+	color:white;
+	font-size: 20px;
+	font-family:cursive;
+}
+.lbl
+{
+    font-size: 20px;
+    color:black;
+    width: 200px;
+    height: 20px;
+    font-family:cursive;
+}
+.container3
+{
+	width:100%;
+	height:300px;
+	background-color: aqua;
+	margin-top:465px;
+}
+.container4
+{
+	width:100%;
+	height:300px;
+	background-color: aqua;
+	margin-top:5px;
+}

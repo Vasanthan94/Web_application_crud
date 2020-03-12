@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<link rel="stylesheet" type="text/css" href="login.css">
+
+</head>
+<body background="D:\vasanth\NetBeans\Project\images\bg66.jpg"> 
+	    
+	    
+	    <br><br>
+		<form action="LoginValidate.jsp">
+		
+			<div class="container1"> 
+			<p>
+                <span style="font-size:50px;color:white;font-weight: bolder;"><b>Login</b></span><br>
+                <span style="color:white;font-size: 20px;font-weight:bolder;">Fill out the form to Login</span>
+            </p>
+         <center>   
+		<table cellspacing="5px" cellpadding="5px">
+			<tr>
+				<td><input type="text" name="empid" class="lbl1" placeholder="EmployeeId" required></td>
+			</tr>
+               
+			<tr>
+				<td ><input type="password" name="emppass" class="lbl1" placeholder="Password" required></td>
+			</tr> 
+		</table>
+		</center>
+		<br>
+		<center>
+		<table>  
+			<tr>
+				<td class="lbl2">
+				<input type="checkbox" name="cb_remember" style="margin-left:20px;">
+				<span>Remember me</span>
+				</td>
+			</tr>
+		</table>
+	</center>
+		<center>
+		<table>
+			<tr>
+				<td><input type="submit" value="SIGN IN" class="signin" onclick="msg()"></td>
+			</tr>
+		</table>
+		</center>
+		
+		<center>
+		<table>
+			<tr>
+				<td><a href="#" class="forgot">Forgot password.?</a></td>
+			</tr>
+		</table>
+		</center>
+		</div>
+		
+		</form>
+	</body>
+</html>
+
+<!-- pattern="[A-Za-z]{min6}" -->

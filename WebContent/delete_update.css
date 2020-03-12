@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+body
+{
+	background-color:gray;
+}
+.lbl
+{
+	color:white;
+	font-size:18px;
+	font-family:cursive;
+	width:400px;
+	height:50px;
+	border-radius:5px;
+}
